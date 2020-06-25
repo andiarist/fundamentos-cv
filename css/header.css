@@ -1,4 +1,3 @@
 .header{
-	position: relative;
-	padding-top: var(--navbar-height);
+	margin-top: var(--navbar-height);
 }
