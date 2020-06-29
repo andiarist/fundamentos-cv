@@ -43,7 +43,7 @@
 
 
  /* menú abierto */
-.navbar-list{
+.navbar-list-open{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
