@@ -42,8 +42,12 @@
 }
 
 
+#burger-checkbox{
+	display: none;
+}
+
  /* menú abierto */
-.navbar-list{
+#burger-checkbox:checked ~ .navbar-list{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -76,6 +80,7 @@
 		display: none;
 	}
 	.navbar-list{
+		display: flex;
 		flex-grow: 1;	
 		justify-content: flex-end;
 		flex-direction: row;
