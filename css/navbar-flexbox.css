@@ -1,0 +1,41 @@
+.navbar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: var(--navbar-height);
+	background-color: white;
+
+	background-color: green;
+
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+}
+
+.navbar .logo{
+	font-family: juego-tronos, 'Times New Roman', Times, serif;
+	background-color: lightblue;
+	text-align: center;
+	line-height: var(--navbar-height);
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+}
+
+.navbar .burger-label{
+	width: var(--navbar-height);
+	height: var(--navbar-height);
+	background-color: gray;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+.navbar-list{
+	display: none;
+}
