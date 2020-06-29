@@ -6,24 +6,12 @@
 	height: var(--navbar-height);
 	background-color: white;
 
-	background-color: green;
-
-	/*display: flex;
-	justify-content: center;
-	align-items: center;*/
 }
 
 .navbar .logo{
 	font-family: juego-tronos, 'Times New Roman', Times, serif;
-	background-color: lightblue;
 	text-align: center;
 	line-height: var(--navbar-height);
-
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-
 }
 
 .navbar .burger-label{
@@ -38,4 +26,39 @@
 
 .navbar-list{
 	display: none;
+}
+
+@media all and (min-width: 768px){
+	.navbar{
+		display: flex;
+	}
+	
+	.navbar .logo{
+		margin: 0 1rem;
+	}
+
+	.navbar .burger-label{
+		display: none;
+	}
+	.navbar-list{
+		display: block;
+		list-style: none;
+		margin: 0;
+		flex-grow: 1;
+
+		display: flex;
+		justify-content: flex-end;
+	}
+	.navbar-item > a{
+		text-decoration: none;
+		color: var(--dark-color);
+		line-height: var(--navbar-height);
+		display: block;
+		padding: 0 1rem;
+	}
+	.navbar-item > a:hover{
+		background-color: var(--dark-color);
+		color: azure;
+	}
+
 }

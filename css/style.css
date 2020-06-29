@@ -3,6 +3,7 @@
 :root{
 	--max-width: 800px;
 	--navbar-height: 60px;
+	--dark-color: #222222;
 }
 
 *{
