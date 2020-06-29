@@ -23,3 +23,15 @@ form input[type="submit"]{
 	background: deepskyblue;
 	background: linear-gradient(to right, #ccddee, #8de5fa, deepskyblue)
 }
+
+@media (min-width: 768px){
+	#contact-form{
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.contact-data, .message-data{
+		flex-shrink: 1;
+		flex-grow: 0;
+		flex-basis: 45%;
+	}
+}
