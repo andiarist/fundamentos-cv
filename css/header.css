@@ -1,5 +1,4 @@
 .header{
-	/*margin-top: var(--navbar-height);*/
 	background: url('../img/header-bg.jpg') top center no-repeat;
 	background-size: cover;
 
@@ -32,4 +31,13 @@
 	background-color: rgba(255, 255, 255, 0.5);
 	margin: 0;
 	padding: 1rem;
+	text-align: center;
+}
+
+@media all and (min-width: 768px){
+	.header > h1, 
+	.header > .tagline{
+	background-color: transparent;
+	margin-left: 50vh;
+	text-align: left;
 }

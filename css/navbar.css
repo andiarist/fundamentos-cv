@@ -10,7 +10,8 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	text-align: center;
+    margin-right: 1rem;
+    float: right;
 }
 
 .navbar-item{
@@ -21,7 +22,6 @@
 	display: inline-block;
 	color: white;
 	text-decoration: none;
-	height: var(--navbar-height);
 	line-height: var(--navbar-height);
 	padding: 0 1rem;
 }
