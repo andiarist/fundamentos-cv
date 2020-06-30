@@ -13,6 +13,9 @@
 	font-family: juego-tronos;
 	src: url('../fonts/gt.ttf');
 }
+body{
+	overflow-x: hidden;
+}
 h1{
 	font-family: juego-tronos, 'Times New Roman', Times, serif;
 	text-align: center;
