@@ -29,3 +29,9 @@ h2, h3, h4, h5, h6{
 .section{
 	padding: 3rem 1rem;
 }
+ .section.inverted{
+ 	background-color: lightgray;
+ 	margin-left: calc(50% - 50vw);
+ 	margin-right: calc(50% - 50vw);
+
+ }
