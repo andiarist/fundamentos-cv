@@ -13,10 +13,14 @@
 	font-family: juego-tronos;
 	src: url('../fonts/gt.ttf');
 }
-h1, h2, h3, h4, h5, h6{
+h1{
 	font-family: juego-tronos, 'Times New Roman', Times, serif;
+	text-align: center;
 }
 
+h2, h3, h4, h5, h6{
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+}
 .main{
 	max-width: var(--max-width);
 	margin: 0 auto;	
