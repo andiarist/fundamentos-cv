@@ -1,6 +1,10 @@
 #contact-form{
 	display: flex;
 	flex-direction: column;
+		max-width: var(--max-width);
+		margin-left: auto;
+		margin-right: auto;		
+		padding: 0 1.5rem;	
 }
 
 form label{
