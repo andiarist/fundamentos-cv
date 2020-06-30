@@ -29,3 +29,29 @@
 .links-list li{
 	text-align: center;
 }
+
+@media (min-width: 768px){
+	.footer{
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.footer .links{
+		text-align: left;
+	}
+	.links-list{
+		margin-top: .5rem;
+		list-style: circle;
+	}
+	.links-list li{
+		margin-left: 2rem;
+		text-align: left;
+	}
+
+	.social i:before{
+		font-size: 2rem;
+	}
+	.social a:hover{
+		color: aqua;
+	}
+
+}
